@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="tipos_media_array">
+        <item>@string/media_aritmetica</item>
+        <item>@string/media_ponderada</item>
+        <item>@string/media_harmonica</item>
+    </string-array>
+</resources>

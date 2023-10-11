@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculadora de Médias</string>
+    <string name="hint_valor">Digite o valor</string>
+    <string name="button_calcular">Calcular</string>
+    <string name="media_aritmetica">Média Aritmética</string>
+    <string name="media_ponderada">Média Ponderada</string>
+    <string name="media_harmonica">Média Harmônica</string>
+</resources>

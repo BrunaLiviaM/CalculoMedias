@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Entradas para os valores -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_valor"
+        android:inputType="numberDecimal"/>
+
+    <!-- Adicione mais EditTexts para outros valores, se necessário -->
+
+    <!-- Spinner para selecionar o tipo de média -->
+    <Spinner
+        android:id="@+id/mediaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Botão para calcular -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_calcular"
+        android:onClick="calcularMedia"/>
+
+</LinearLayout>
